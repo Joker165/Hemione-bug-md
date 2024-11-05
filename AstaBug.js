@@ -2023,7 +2023,7 @@ sourceUrl: link,
 replygcxeon(`*Successfully sent as many bugs as ${amount} Please pause for 3 minutes*`)
 }
 break
-case 'Grey-ios':
+case 'grey_ios':
 if (!isPremium) return replygcxeon(mess.prem)
 if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 91xxxxxxxxxx`)
  victim = text.split("|")[0]+'@s.whatsapp.net'
@@ -2038,7 +2038,7 @@ await sleep(3000)
 }
 replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
-case 'chop mud':{
+case 'chop_mud':{
 if (!isPremium) return replygcxeon(mess.prem)
 if (!args[0]) return replygcxeon(`Use ${prefix+command} amount\nExample ${prefix+command} 5`)
  amount = `${encodeURI(text)}`
