@@ -2473,7 +2473,7 @@ if (typemenu === 'v1') {
                     })
                     } else if (typemenu === 'v2') {
                     XeonBotInc.sendMessage(m.chat, {
-      video: fs.readFileSync('./AstaMedia/thumb2.mp4'),
+      video: fs.readFileSync('./AstaMedia/thumb.jpg'),
       gifPlayback: true,
       caption: xeonmenuoh,
       contextInfo: {
@@ -2481,7 +2481,7 @@ if (typemenu === 'v1') {
       title: botname,
       body: ownername,
       thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
-      sourceUrl: ``,
+      sourceUrl: link,
       mediaType: 1,
       renderLargerThumbnail: true
       }
