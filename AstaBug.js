@@ -144,7 +144,7 @@ const subscribe_dgxeon = {
 },
 message: {
 "listResponseMessage": {
-title: `Xeon's ur father`
+title: `MELTING POINT`
 }}
 }
 async function XeonyCrashy(dgxeon,chat) {
@@ -164,7 +164,7 @@ var xeonlod = [
 "《 ███████▒▒▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳‎  𓋹 ..."
+"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳‎  🍀..."
 ]
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
