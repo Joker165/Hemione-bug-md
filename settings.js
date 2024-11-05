@@ -16,7 +16,7 @@ global.ytname = "YT: Xeon"
 global.socialm = "GitHub: Feranmi245"
 global.location = "nigeria, lagos, abuja"
 
-global.ownernumber = '2348022159244'  //creator number
+global.ownernumber = '2349064404296'  //creator number
 global.ownername = 'MELTING POINT' //owner name
 global.botname = 'GREY IOS' //name of the bot
 
@@ -29,7 +29,7 @@ global.themeemoji = '🐥'
 global.wm = "grey Bot Inc."
 
 //theme link
-global.link = '‎https://whatsapp.com/channel/0029VagvH9tLdQeiUYXE7V43'
+global.link = '‎https://whatsapp.com/channel/0029VaefL9g0gcfLITSc841W'
 
 //custom prefix
 global.prefa = ['!','.','#','&']
