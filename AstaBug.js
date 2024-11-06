@@ -2413,12 +2413,12 @@ break
 ${readmore}
 ɪᴏs-ʙᴜɢs
 ┏━━━━━━━━━━━
-◈ ɢʀᴇʏ-ɪᴏs  <ɴᴜᴍʙᴇʀ>
-◈ ᴘʟᴀɴᴋ <ɴᴜᴍʙᴇʀ|ᴀᴍᴏᴜɴᴛ>
+◈ɢʀᴇʏ_ɪᴏs  <ɴᴜᴍʙᴇʀ>
+◈ᴘʟᴀɴᴋ <ɴᴜᴍʙᴇʀ|ᴀᴍᴏᴜɴᴛ>
 ┗━━━━━━━━━━━
       ᴀɴᴅʀᴏɪᴅ-ɴᴇᴛᴡᴏʀᴋ
 ┏━━━━━━━━━━━
-◈ sᴏʟᴏ-ɴᴇᴛ <ɴᴜᴍʙᴇʀ>
+◈sᴏʟᴏ-ɴᴇᴛ <ɴᴜᴍʙᴇʀ>
 ◈sᴏʟᴏ-ɢᴄ <ɢᴄ ʟɪɴᴋ|>
 ◈sᴏʟᴏ_0 <ᴀᴍᴏᴜɴᴛ> ɪɴ ᴄʜᴀᴛ !
 ◈ᴄʟᴏsᴇ_ᴄʜᴀᴛ <ᴀᴍᴏᴜɴᴛ> ɪɴ ᴄʜᴀᴛ !
@@ -2473,7 +2473,7 @@ if (typemenu === 'v1') {
                     })
                     } else if (typemenu === 'v2') {
                     XeonBotInc.sendMessage(m.chat, {
-      video: fs.readFileSync('./AstaMedia/thumb2.mp4'),
+      video: fs.readFileSync('./AstaMedia/grey.mov'),
       gifPlayback: true,
       caption: xeonmenuoh,
       contextInfo: {
