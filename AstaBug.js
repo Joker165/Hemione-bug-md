@@ -45,24 +45,24 @@ const ZipXeon = JSON.parse(fs.readFileSync('./database/autoreply/zip.json'))
 const ApkXeon = JSON.parse(fs.readFileSync('./database/autoreply/apk.json'))
 
 //time
-        const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+        const time2 = moment().tz('Africa/Lagos').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
  if(time2 < "19:00:00"){
-var xeonytimewisher = `Good Evening 🌃`
+var xeonytimewisher = `Good Evening ,wassup🌃`
  }
  if(time2 < "18:00:00"){
-var xeonytimewisher = `Good Evening 🌃`
+var xeonytimewisher = `Good Evening ,wassup🌃`
  }
  if(time2 < "15:00:00"){
-var xeonytimewisher = `Good Afternoon 🌅`
+var xeonytimewisher = `Good Afternoon ,wassup 🌅`
  }
  if(time2 < "11:00:00"){
-var xeonytimewisher = `Good Morning 🌄`
+var xeonytimewisher = `Good Morning ,wassup🌄`
  }
  if(time2 < "05:00:00"){
-var xeonytimewisher = `Good Morning 🌄`
+var xeonytimewisher = `Good Morning ,wassup🌄`
  } 
 module.exports = XeonBotInc = async (XeonBotInc, m) => {
     try {
@@ -2409,7 +2409,7 @@ break
             case 'alive':
             case '?':
                 let xeonmenuoh = `ʜᴇʟʟᴏ🍀 ${pushname}
-╰┈➤ ${xeonytimewisher} 😄
+┗━━━> ${xeonytimewisher} 😄
 ${readmore}
 ɪᴏs-ʙᴜɢs
 ┏━━━━━━━━━━━
@@ -2451,7 +2451,6 @@ ${readmore}
 ◈ʀᴜɴᴛɪᴍᴇ
 ◈sᴛɪᴄᴋᴇʀ 
 ◈ᴄʟᴇᴀʀᴄʜᴀᴛ 
-◈ᴀʟʟᴍᴇɴᴜ 
 ◈ᴠᴠ
 ┗━━━━━━━━━━━
 @ɢʀᴇʏ.ɪɴᴄ`
@@ -2473,7 +2472,7 @@ if (typemenu === 'v1') {
                     })
                     } else if (typemenu === 'v2') {
                     XeonBotInc.sendMessage(m.chat, {
-      video: fs.readFileSync('./AstaMedia/thumb.jpg'),
+      video: fs.readFileSync('./AstaMedia/thumb2.mp4'),
       gifPlayback: true,
       caption: xeonmenuoh,
       contextInfo: {
