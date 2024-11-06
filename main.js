@@ -21,7 +21,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "916909137213"
+let phoneNumber = "2348107582855"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -165,8 +165,8 @@ AstaBotInc.ev.on("connection.update",async  (s) => {
 			await delay(1999)
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-	        console.log(chalk.magenta(`\n${themeemoji} WA CHANNEL: ASTA`))
-            console.log(chalk.magenta(`${themeemoji} GITHUB: Astropeda `))
+	        console.log(chalk.magenta(`\n${themeemoji} WA CHANNEL: GREY `))
+            console.log(chalk.magenta(`${themeemoji} GITHUB: joker165 `))
             console.log(chalk.magenta(`${themeemoji} WA NUMBER: ${owner}`))
             console.log(chalk.magenta(`${themeemoji} CREDIT: ${wm}\n`))
         }
